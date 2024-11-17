@@ -1,0 +1,107 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body
+{
+    height: 100%;
+    width: 100%;
+    background-color: #1c1d1d;
+    color: white;
+    padding: 1.5% 2%;
+}
+
+#main
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vw;
+}
+
+#reset
+{
+    background-color: #A5C9CA;
+    color: #395B64;
+
+    width: fit-content;
+    padding: 1%;
+    font-size: 1.5vw;
+    font-weight: 600;
+
+    border-radius: 10px;
+    border: 0;
+}
+
+#score
+{
+    width: 80%;
+    /* background-color: salmon; */
+    display: flex;
+    justify-content: space-between;
+    color: #A5C9CA;
+}
+
+#score h2
+{
+    font-size: 2vw;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#msg
+{
+    font-size: 3vw;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#msg h1
+{
+    font-size: 5vw;
+}
+
+#game
+{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    gap: 5vw;
+    align-items: center;
+    margin-bottom: 3vw;
+    margin-top: 2vw;
+
+}
+
+img
+{
+    width: 12vw;
+    height: 12vw;
+    /* background-color: salmon; */
+    object-fit: contain;
+    mix-blend-mode:exclusion;
+}
+
+#control button
+{
+    background-color: #395B64;
+    color: #E7F6F2;
+
+    width: 20%;
+    padding: 1%;
+    font-size: 2vw;
+    font-weight: 600;
+
+    border-radius: 10px;
+    border: 0;
+}
+
+#control
+{
+    display: flex;
+    width: 80%;
+    justify-content: space-evenly;
+}
